@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: transparent;
+    /* background-color: white; */
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.b1 {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    background-image: url(https://images.unsplash.com/photo-1589362281138-e3f7ebe47f1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwZGVza3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+}
+
+.b1 button {
+    border-radius: 20px;
+    background-color: rgb(211, 68, 42);
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+.aab {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+
+.b1 h1 {
+    padding-top: 60px;
+}
+
+.find {
+    background-color: rgb(211, 68, 42);
+    width: 100%;
+    height: 390px;
+}
+
+.find h1 {
+    padding-top: 100px;
+}
+
+.down h1 {
+    padding-top: 150px;
+}
+
+.find button {
+    background-color: white;
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.find a {
+    text-decoration: none;
+    color: black;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.car {
+    width: 450px;
+    margin: 0px;
+    height: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.r3 {
+    margin-top: -107px;
+}
+
+.down {
+    background-color: #000;
+    color: white;
+    height: 390px;
+}
+
+.down button {
+    background-color: white;
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.down a {
+    text-decoration: none;
+    color: #000;
+}
+.tou input{
+    width: 440px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.tou button{
+    border: none;
+    width: 440px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  rgb(211, 68, 42);
+    color: white;
+}
+.car:hover .overlay{
+    opacity: .6;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(211, 68, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.car{
+    position: relative;
+}
+/* .r2{
+    height: 395px;
+} */
